@@ -1,0 +1,92 @@
+body {
+	background-color: #444;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #eee;
+}
+
+.android-logo {
+	width:300px;
+	height:500px;
+	margin: auto;
+}
+
+.logo {
+	background-color: #eee;
+	position: relative;
+}
+
+.round {
+	border-radius: 50px;
+}
+
+.antenna, .eye, .arm, .body, .leg {
+	display: inline-block;
+}
+
+.antenna {
+	height: 50px;
+	width: 8px;
+	top: 25px;
+}
+
+#left-antenna {
+	right: 40px;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+#right-antenna {
+	left: 40px;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+#head {
+	margin: auto;
+	height: 100px;
+	width: 200px;
+	border-top-left-radius: 900px;
+	border-top-right-radius: 900px;
+}
+
+.eye {
+	position: relative;
+	background-color: #444;
+	height: 14%;
+	width: 8%;
+	top: 40%;
+	margin: 0 15%;
+}
+
+.arm {
+	bottom: 50px;
+	margin: 0 5px;
+}
+
+.body {
+	margin-top: 10px;
+	width: 200px;
+	height: 150px;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+}
+
+.torso {
+	display: block;
+}
+
+.ligament {
+	height: 100px;
+	width: 30px;
+}
+
+.leg {
+	margin:0px 10%;
+	bottom: 25px;
+}
